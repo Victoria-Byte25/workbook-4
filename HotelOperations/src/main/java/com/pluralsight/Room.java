@@ -21,15 +21,17 @@ public class Room {
         return price;
     }
 
-    public boolean isOccupied() {
-        return isOccupied;
-    }
 
-    public boolean isDirty() {
-        return isDirty;
-    }
 
-    public boolean isAvailable() {
-        return !isOccupied && !isDirty;
-    }
+public boolean isOccupied() {
+    return isOccupied;
+}
+
+public boolean isDirty() {
+    return isDirty;
+}
+
+public boolean isAvailable() {
+    return !isOccupied && !isDirty;
+}
 }
