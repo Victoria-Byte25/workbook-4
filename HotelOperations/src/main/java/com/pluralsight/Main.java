@@ -38,7 +38,7 @@ public class Main {
         System.out.println("Total: $" + reservation.getReservationTotal());
 
         // --- Employee Test ---
-        Employee emp = new Employee("D501", "Dave Brown", "Housekeeping", 20.00, 45);
+        Employee emp = new Employee("D501", "Dave Dykes", "Housekeeping", 35.00, 55);
 
         System.out.println("\n--- Employee Payroll Info ---");
         System.out.println("Employee ID: " + emp.getEmployeeId());
